@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Hind Vadodara';
+    src: url('HindVadodara-Medium.eot');
+    src: local('Hind Vadodara Medium'), local('HindVadodara-Medium'),
+        url('HindVadodara-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HindVadodara-Medium.woff2') format('woff2'),
+        url('HindVadodara-Medium.woff') format('woff'),
+        url('HindVadodara-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Vadodara';
+    src: url('HindVadodara-Light.eot');
+    src: local('Hind Vadodara Light'), local('HindVadodara-Light'),
+        url('HindVadodara-Light.eot?#iefix') format('embedded-opentype'),
+        url('HindVadodara-Light.woff2') format('woff2'),
+        url('HindVadodara-Light.woff') format('woff'),
+        url('HindVadodara-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Vadodara';
+    src: url('HindVadodara-SemiBold.eot');
+    src: local('Hind Vadodara SemiBold'), local('HindVadodara-SemiBold'),
+        url('HindVadodara-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('HindVadodara-SemiBold.woff2') format('woff2'),
+        url('HindVadodara-SemiBold.woff') format('woff'),
+        url('HindVadodara-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Vadodara';
+    src: url('HindVadodara-Regular.eot');
+    src: local('Hind Vadodara Regular'), local('HindVadodara-Regular'),
+        url('HindVadodara-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HindVadodara-Regular.woff2') format('woff2'),
+        url('HindVadodara-Regular.woff') format('woff'),
+        url('HindVadodara-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Vadodara';
+    src: url('HindVadodara-Bold.eot');
+    src: local('Hind Vadodara Bold'), local('HindVadodara-Bold'),
+        url('HindVadodara-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HindVadodara-Bold.woff2') format('woff2'),
+        url('HindVadodara-Bold.woff') format('woff'),
+        url('HindVadodara-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

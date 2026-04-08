@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #bbdb76;
+  margin-bottom: 20px;
+}
+.tabs__btn {
+  padding: 10px;
+}
+.tabs__btn.active {
+  background-color: lightblue;
+}
+
+.tabs__content-item {
+  display: none;
+}
+.tabs__content-item.active {
+  display: block;
+  padding: 20px;
+  border: 1px solid black;
+}

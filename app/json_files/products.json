@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Eucalyptus Honey",
+      "desc": "It has the scent of lavender, medium sweetnesslavender scented, and has a medium amber color.",
+      "imgSrc": "../img/product1.webp"
+    },
+    {
+      "id": 2,
+      "title": "Basswood Honey",
+      "desc": "Basswood is a tree native and abundant in Wisconsin, which is also known as the Linden tree.",
+      "imgSrc": "../img/product2.webp"
+    }
+    
+  ]
+}

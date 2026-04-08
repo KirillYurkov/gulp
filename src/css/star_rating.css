@@ -1,0 +1,29 @@
+.rating {
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+.star {
+  fill: white;
+  stroke: rgb(255, 174, 0);
+  stroke-width: 20px;
+  width: 50px;
+  height: 50px;
+  transition: fill 0.3s ease-in-out;
+  &:hover,
+  &:hover ~ .star {
+    fill: rgb(255, 215, 0);
+    cursor: pointer;
+  }
+}
+
+.rating[data-value-total="1"] .star:nth-child(n + 5),
+.rating[data-value-total="2"] .star:nth-child(n + 4),
+.rating[data-value-total="3"] .star:nth-child(n + 3),
+.rating[data-value-total="4"] .star:nth-child(n + 2),
+.rating[data-value-total="5"] .star:nth-child(n + 1) {
+  fill: gold;
+}
+.clear:hover {
+  cursor: pointer;
+}

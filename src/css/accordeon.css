@@ -1,0 +1,38 @@
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 20px;
+}
+
+.accordeon__head {
+  padding: 20px;
+  background-color: rgb(228, 159, 159);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordeon__head::after {
+  content: "+";
+  /* transform: rotate(0); */
+  transition: transform 0.3s ease-in-out;
+}
+.accordeon__content {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(146, 157, 183);
+}
+.accordeon__content > div {
+  overflow: hidden;
+}
+.accordeon__head.rotate::after {
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+}
+.accordeon__content.hide {
+  grid-template-rows: 0fr;
+  padding: 0;
+}

@@ -1,0 +1,67 @@
+.double-slider-box {
+  max-width: 300px;
+  margin: 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.range-slider {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.slider-track {
+  position: absolute;
+  background-color: black;
+  height: 5px;
+  width: 100%;
+}
+/* Позициогирование слайдера */
+.range-slider input {
+  position: absolute;
+  width: 100%;
+  background: none;
+  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+  appearance: none; /*удаляет стили ползунков*/
+}
+/* Стили для круглешков слайдера */
+input[type="range"]::-webkit-slider-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid black;
+  pointer-events: auto;
+  cursor: pointer;
+  appearance: none;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid black;
+  pointer-events: auto;
+  cursor: pointer;
+  -moz-appearance: none;
+}
+
+/* Стилизация ценывых инпутов */
+.input-box {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.input-field {
+  width: 100%;
+  flex: 1;
+  padding: 10px 10px;
+}
+/* Убираем стрелки инпутов */
+.input-field::-webkit-outer-spin-button,
+.input-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
