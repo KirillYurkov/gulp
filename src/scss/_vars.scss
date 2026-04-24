@@ -1,9 +1,13 @@
 :root {
-  --primary: #ffa638;
-  --primary-hover: #ff8c00;
-  --title:#0b0b0b;
-  --title2:#000;
-  --desc:#000;
+	--button: rgb(61, 169, 252);
+  --btn-hover: rgba(61, 169, 252,0.8);
+	--title: #094067;
+	--paraap: #5f6c7b;
+	--ilustration-colou1: #90b4ce;
+	--ilustration-color-2: #ef4565;
+  --primary:rgb(78, 97, 109);
+  --primary-hover:rgba(78, 97, 109,.5);
+
   // Пагинация свайпера
   --swiper-pagination-color:#020202;
   --swiper-pagination-bullet-border-radius: 5px;

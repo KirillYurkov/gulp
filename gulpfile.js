@@ -25,8 +25,6 @@ const cssFiles = [
 ];
 const scssFiles = ["./src/scss/**/*.scss"];
 const jsFiles = [
-  "./src/js/products.js",
-  "./src/js/users.js",
   "./src/js/main.js",
 ];
 const jsLibsFiles = [
@@ -283,7 +281,7 @@ export function watcher() {
 //Cборка для dev
 const dev = gulp.series(
   delApp,
-  fontsToWoff2,
+  fontsToApp,
   htmlInclude,
   gulp.parallel(css, scss, scripts, scriptsLibs, svgMono, svgMulti, json),
   imgToWebp,

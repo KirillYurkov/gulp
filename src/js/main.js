@@ -1,9 +1,9 @@
 'use strict'
-// import Calendar from "./calendar.js";
-let date=new Date();
-let year=date.getFullYear();
-let month=date.getMonth();
-let calendar=new Calendar('calendar');
-calendar.createCalendar(year,month);
+let burger=document.querySelector('.header__burger');
+let headerNav=document.querySelector('.header-nav__list')
+burger.addEventListener('click',function(){
+    headerNav.classList.toggle('active');
+    burger.classList.toggle('active');
+});
 
 
